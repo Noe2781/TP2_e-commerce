@@ -193,4 +193,20 @@ body {
     background: linear-gradient(to bottom, #64d7f4, #f88bc4);
 }
 
+/* tours */
 
+.tours {
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin-top: 20px; /* Agrega margen superior para separación */
+    color: #ed22c8;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.card-body{
+    background-color: #49db3f;
+    color: #ed22c8;
+}
+.card-text text-white-50 description{
+    color: #ed22c8;
+}
