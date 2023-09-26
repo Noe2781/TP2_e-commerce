@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Social con Bootstrap</title>
+    <!-- Incluye los archivos CSS de Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a  class="navbar-brand" href="#"> <img width="80px" height="80px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyUmTaQm66oN4xVlrEyTeD6ukpNqvkwhnIPu6LtbXYbG0zNWncCvYjcs2vLcQS3tRNQEw&usqp=CAU" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#registro">Registro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tours">Tours</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <!-- Tarjeta 1 -->
+            <div class="card">
+                <img width="90px" height="405px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReiOiuYhWr6dTtwdHksNiVu4vgO7e1FDicS2V0hhFWL_IP4Qvm_L_zIFyZ-DPvslH6Nho&usqp=CAU" class="card-img-top" alt="Imagen 1">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <!-- Tarjeta 2 -->
+            <div class="card">
+                <div class="card-body">
+                    <p>Viaja con Travel & Rock</p>
+                    <p>Ya no esperes que tu artista preferido venga a tu país</p>
+                    <p>Te llevamos a cualquier punto del mundo para que disfrutes de tu concierto preferido</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <!-- Mover el div de registro al centro -->
+            <div class="login-box">
+                <h2 id="registro" >Red Social</h2>
+                <form>
+                    <div class="user-box">
+                        <input id="usuario-nombre" type="text" name="" required="">
+                        <label>Usuario</label>
+                    </div>
+                    <div class="user-box">
+                        <input id="usuario-contrasenia" type="password" name="" required="">
+                        <label>Contraseña</label>
+                    </div>
+                    <a onclick="verificar()" href="">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Ingresar
+                    </a>
+                    <a href="registrar.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Registrar
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Incluye los archivos JavaScript de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="verificar.js"></script>
+</body>
+</html>
